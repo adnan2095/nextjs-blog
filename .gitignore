@@ -1,47 +1,5 @@
-# Node app settings
-conf/app_settings.js
-config/settings/app_settings.js
-config/settings/app_settings_bk.js
-
-# Code base documentation
-documentation
-.docs/*
-!.docs/documentation.json
-
 # NPM Modules
 /node_modules*
-.storybook/node_modules
-.storybook/storybook-static
-.storybook-ng2/node_modules
-.storybook-ng2/storybook-static
-test.ui/node_modules
-
-# OS generated files #
-.DS_Store
-.DS_Store?
-Thumbs.db
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# Generated Files.
-*.ser
-*.class
-*~
-*.bak
-*.off
-*.old
-
-# Building
-target
-build
-null
-tmp*
-dist
-test-output
-.sass-cache
 
 # Other SCMs
 .svn
@@ -61,35 +19,6 @@ test-output
 
 # Netbeans
 nbproject
-
-# Log Files
-logs/*
-newrelic_agent.log
-npm-debug.log
-
-# Webpack report
-webpack_stats.json
-
-# Test reports
-test.ui/jest-stare
-test/reports
-vzi.pipes/test/reports
-vzi.services/test/reports
-vzi.view/test/reports
-
-conf/remote*
-conf/local*
-
-# Public / Dist files
-public/*
-vzi.pipes/dist/*
-vzi.services/dist/*
-vzi.view/dist/*
-# Do not ignore public components. Legacy and need to be moved to vendors.
-!public/components/*
-
-# Ignore mapping file for asset revisioning
-rev-manifest.json
 
 # Vscode
 .vscode
